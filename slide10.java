@@ -1,3 +1,12 @@
+/*Given a sorted array nums, remove the duplicates in-place such that duplicates appeared at most twice and return the new length. Do not allocate extra space for another array, you must do this by modifying the input array in-place with O(1) extra memory.
+
+Input: nums = [1,1,1,2,2,3]
+
+Output :  5
+
+Explanation:  As a number in the nums array can appear twice thus we have to remove only one ‘1’ from the above array and print the length of the array.
+*/
+
 class RemoveDuplicatesSortedArrayII {
   private static int removeDuplicates(int[] nums) {
     int n = nums.length;
